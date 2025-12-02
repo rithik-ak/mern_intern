@@ -1,0 +1,56 @@
+.bankai{
+    color:cyan;
+    background-color: black;
+    padding-bottom: 10px;
+  padding-left: 20px;
+    padding-right: 20px;
+}
+    
+.Pu{
+  color:rgb(200, 123, 255);
+  background-color: black;
+  padding-bottom: 10px;
+  padding-left: 20px;
+    padding-right: 20px;
+  }
+
+hr{
+   border: 2px dashed rgba(0,0,0);
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(215, 36, 17);
+    text-align: center;
+}
+ .i{
+    font-family: 'Arial', sans-serif;
+    color: rgb(17, 34, 215);
+    background-color: black;
+} 
+ /* div p{
+    font-family: 'Arial', sans-serif;
+    color: rgb(17, 34, 215);
+    background-color: black;
+ } */
+  div{
+    text-align: justify;
+  }
+  div h2{
+    font-family:"arial", sans-serif;
+    color: rgb(34, 139, 34);
+    text-transform: uppercase;
+    text-decoration: underline;
+   
+  }
+  .o{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 140, 0);
+    background-color: black;
+
+  }
+.l{
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(128, 0, 128);
+  background-color: black;
+}
