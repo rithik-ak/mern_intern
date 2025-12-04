@@ -1,0 +1,21 @@
+const numbers=[10,20,30,40,50];
+const  joi=numbers.push(60);
+console.log(numbers);
+console.log(joi);
+console.log(numbers.length);
+const pop=numbers.pop();
+console.log(numbers);
+console.log(pop);
+const shift=numbers.unshift(1);
+console.log(numbers);
+console.log(shift);
+const sd=numbers.shift();
+console.log(numbers);
+console.log(sd);
+
+const y=numbers.slice(1,4);
+console.log(numbers);
+  console.log(y);
+const z= numbers.slice(-2);
+console.log(numbers);
+console.log(z);
