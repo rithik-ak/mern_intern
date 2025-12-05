@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q&A</title>
+</head>
+<body>
+    <style>
+        .qa{
+            position: relative;
+            top: 100px;
+            justify-self: center;
+            padding: 50px;
+            border: 1px solid;
+            border-radius: 30px;
+        }
+        label{
+            font-weight: bold;
+        }
+    </style>
+    <h1>Question and Answers :-</h1>
+    <hr>
+    <div class="qa">
+
+        <label id="q1" for="q1">1.What does html stands for?</label><br>
+        <input type="radio" name="q1" value="Hyper Text Markup Language">Hyper Text Markup Language<br>
+        <input type="radio" name="q1" value="Hyper Tent Markup Language">Hyper Tent Markup Language<br>
+        <input type="radio" name="q1" value="Hyper Text Mark Language">Hyper Text Mark Language<br>
+        <input type="radio" name="q1" value="Hyper Text Marking Language">Hyper Text Marking Language<br><br>
+        <label id="q2" for="q2">2.What does css stands for?</label><br><br>
+
+        <input type="radio" name="q2" value="Cascade Style Sheet">Cascade Style Sheet<br><br>
+        <input type="radio" name="q2" value="Cascading Style Sheet">Cascading Style Sheet<br>
+        <input type="radio" name="q2" value="Cascading Style Sheeting">Cascading Style Sheeting<br><br>
+        <input type="radio" name="q2" value="Cascaded Style Sheet">Cascaded Style Sheet<br><br>
+        <input type="submit">
+    </div>
+    <script>
+        document.getElementsByClassName("qa")
+        const q1 = document.querySelector("input[name='q1']:checked")
+        
+    </script>
+</body>
+</html>
