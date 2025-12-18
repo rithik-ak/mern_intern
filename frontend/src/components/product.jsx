@@ -20,7 +20,7 @@ export default function Product() {
 
   if (loading) {
     return (
-      <div className="text-center mt-24 text-lg text-gray-500">
+      <div className="text-center text-black mt-24 text-lg text-gray-500">
         Loading product details...
       </div>
     )
@@ -28,20 +28,20 @@ export default function Product() {
 
   if (!product) {
     return (
-      <div className="text-center mt-24 text-xl text-gray-600">
+      <div className="text-center text-black mt-24 text-xl text-gray-600">
         Product not found
       </div>
     )
   }
 
   return (
-    <div className="flex justify-center px-6 py-12 bg-gray-50 min-h-[70vh]">
+    <div className="flex justify-center text-black px-6 py-12 bg-gray-50 min-h-[70vh]">
 
       {/* PRODUCT CARD */}
       <div className="bg-white rounded-2xl shadow-xl p-8 max-w-lg w-full">
 
         {/* TITLE */}
-        <h2 className="text-3xl font-extrabold text-gray-800 mb-6 text-center">
+        <h2 className="text-3xl font-extrabold  text-black-800 mb-6 text-center">
           Product Details
         </h2>
 
@@ -55,11 +55,11 @@ export default function Product() {
         </div>
 
         {/* INFO */}
-        <h3 className="text-2xl font-semibold text-gray-800 mb-2">
+        <h3 className="text-2xl font-semibold text-black-800 mb-2">
           {product.name}
         </h3>
 
-        <p className="text-sky-600 text-xl font-bold mb-4">
+        <p className="text-sky-600 text-xl text-black font-bold mb-4">
           ₹ {product.price}
         </p>
 
