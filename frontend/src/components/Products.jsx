@@ -8,18 +8,17 @@
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
-  background-color: black;
+  background-color: #242424;
 }
 
 /* Body */
 body {
   margin: 0;
-  text-red;
   min-width: 320px;
   min-height: 100vh;
   background-color: var(--bg-color);
   font-family: inherit;
-  color: black; /* let Tailwind classes set text color */
+  color: inherit; /* let Tailwind classes set text color */
 }
 
 /* Links */
@@ -31,7 +30,6 @@ a {
 
 /* Headings */
 h1 {
-  text-black;
   font-size: 3.2em;
   line-height: 1.1;
   font-weight: 700;
@@ -39,14 +37,11 @@ h1 {
 }
 
 /* Buttons */
-button  {
+button {
   border-radius: 0.5rem; 
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
-  text-black;
-  text-black;
-  text-red-950
   font-weight: 500;
   font-family: inherit;
   cursor: pointer;
@@ -71,7 +66,7 @@ input:focus, textarea:focus, select:focus {
 
 /* Cards: background only, no forced text color */
 .card {
-  background-color:red;
+  background-color: #1f1f1f;
   border-radius: 1rem;
   padding: 2rem;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
@@ -91,4 +86,3 @@ input:focus, textarea:focus, select:focus {
   :root { --bg-color: #242424; }
   .card { background-color: #1f1f1f; }
 }
- 
