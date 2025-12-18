@@ -1,23 +1,15 @@
-/* Center all h1 headings */
-h1 {
+h1{
   text-align: center;
 }
-
-/* Replace .o (right-aligned element) */
-.o {
-  display: inline-block;
-  margin-left: auto;  /* push to the right */
-  margin-right: 0;
+.o{
+ position: relative ;
+ left:900px;
 }
-
-/* Replace .i (centered element) */
-.i {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; /* center horizontally */
+.i{
+  position: relative ;
+ left:400px;
 }
+.l{
+  border-radius: 10%;
 
-/* Rounded element */
-.l {
-  border-radius: 1rem; /* 16px rounded corners */
 }
